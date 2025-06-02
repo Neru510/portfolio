@@ -40,6 +40,7 @@ export default function LinkHover({ text, href, previewImage }) {
                         style={{ maxHeight: "300px" }}
                         width={previewImage.width}
                         height={previewImage.height}
+                        unoptimized
                     />
                     <div className="text-xs p-2 bg-gray-800 text-white">
                         {new URL(href).hostname}

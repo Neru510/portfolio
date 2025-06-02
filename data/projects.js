@@ -1,4 +1,4 @@
-let lien = '/img/projects/';
+let lien = '/portfolio/img/projects/';
 export const projects = [
     {
         id : "gopetsit",

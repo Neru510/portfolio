@@ -23,6 +23,7 @@ export default function ProjectPreview({ nom, desc, img, skills_overview, link, 
                             className="transition-transform duration-300 ease-out group-hover:scale-110"
                             style={{ objectFit: "cover", objectPosition: "top" }}
                             priority
+                            unoptimized
                         />
                     )}
                 </div>
@@ -30,7 +31,14 @@ export default function ProjectPreview({ nom, desc, img, skills_overview, link, 
                 <div className="px-6 py-5 relative">
                     {logo && (
                         <div className="w-10 h-10 rounded-full bg-black shadow flex items-center justify-center absolute -top-5 left-6 border border-[#bfae4f]">
-                            <Image src={logo} alt="logo" width={28} height={28} className="object-contain" />
+                            <Image
+                                src={logo}
+                                alt="logo"
+                                width={28}
+                                height={28}
+                                className="object-contain"
+                                unoptimized
+                            />
                         </div>
                     )}
 

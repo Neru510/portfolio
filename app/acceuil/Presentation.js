@@ -33,13 +33,13 @@ export default function Presentation() {
                                 <LinkHover
                                     text="LICORNES"
                                     href="https://www.instagram.com/licornes.asso/"
-                                    previewImage="/img/previews/preview-licornes.png"
+                                    previewImage="/portfolio/img/previews/preview-licornes.png"
                                 />{" "}
                                 ou le{" "}
                                 <LinkHover
                                     text="festival du jeu"
                                     href="https://www.festivaldujeu-montpellier.org/"
-                                    previewImage="/img/previews/preview-festival.png"
+                                    previewImage="/portfolio/img/previews/preview-festival.png"
                                 />{" "}
                                 m&apos;a permis de mieux comprendre les dynamiques internes des organisations.
                             <br /><br />
@@ -55,15 +55,16 @@ export default function Presentation() {
                     <div className="flex flex-col items-center">
                         <div className="w-70 h-70 min-w-50 min-h-50 rounded-full overflow-hidden border-4 border-[#D49C6A] shadow-xl bg-gray-900 flex items-center justify-center">
                             <Image
-                                src="/img/pp.jpeg"
+                                src="/portfolio/img/pp.jpeg"
                                 alt="Héloïse Rigaux"
                                 className="object-cover w-full h-full"
                                 height="300"
                                 width="300"
+                                unoptimized
                             />
                         </div>
                         <a
-                            href="/img/CV_RIGAUX_Heloise.pdf"
+                            href="/portfolio/img/CV_RIGAUX_Heloise.pdf"
                             download
                             className="mt-6 px-6 py-2 bg-[#D49C6A] hover:bg-[#b97a40] text-gray-900 font-semibold rounded-md shadow-md text-center w-max
                                         transform transition-transform duration-200 hover:scale-105"

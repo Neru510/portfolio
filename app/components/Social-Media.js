@@ -1,11 +1,11 @@
 import Image from "next/image";
 
 export default function SocialMedia() {
-    let link = '/img/components/social-media/';
+    let link = '/portfolio/img/components/social-media/';
     const socials = [
         { name: "github", url: "https://github.com/Neru510" },
         { name: "linkedin", url: "https://www.linkedin.com/in/rigauxh" },
-        { name: "cv", url: "/img/CV_RIGAUX_Heloise.pdf" },
+        { name: "cv", url: "/portfolio/img/CV_RIGAUX_Heloise.pdf" },
     ];
     let style= "mx-2 transition-transform duration-200 will-change-transform transform hover:scale-110"
     return (
@@ -24,6 +24,7 @@ export default function SocialMedia() {
                         width={32}
                         height={32}
                         className="transition-transform duration-200 will-change-transform transform hover:scale-110"
+                        unoptimized
                     />
                 </a>
             ))}

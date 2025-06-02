@@ -18,7 +18,7 @@
 }
 
 body {
-  @apply bg-[url('/img/background.jpg')] bg-no-repeat bg-center bg-cover min-h-screen;
+  @apply bg-[url('/portfolio/img/background.jpg')] bg-no-repeat bg-center bg-cover min-h-screen;
   background-attachment: fixed;
   color: var(--foreground);
 }

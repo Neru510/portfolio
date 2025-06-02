@@ -48,6 +48,7 @@ export default function Skills({ id }) {
                         height={800}
                         className="rounded-lg shadow-lg border border-white"
                         style={{ background: '#222' }}
+                        unoptimized
                     />
                 </div>
             )}

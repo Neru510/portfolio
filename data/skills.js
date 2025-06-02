@@ -21,7 +21,7 @@ for (let i = 1; i < 7; i++) {
         {
             id : `${i}`,
             nom : `Compétence ${i}`,
-            img : `/img/projects/skills/skill${i}.png`,
+            img : `/portfolio/img/projects/skills/skill${i}.png`,
             color : `${colors[i-1]}`,
             descr : `${description[i-1]}`
         }
