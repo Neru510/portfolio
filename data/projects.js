@@ -9,14 +9,14 @@ export const projects = [
             "entre travail, vie personnelle et études.",
         type : "Projet",
         images : {
-            logo : `${lien}gopetsit/logo.png`,
+            logo : `${lien}gopetsit/logo.jpeg`,
             preuves : [
                 `${lien}gopetsit/img1.png`,
                 `${lien}gopetsit/img2.png`,
                 `${lien}gopetsit/img3.png`
             ]
         },
-        disclaimer: "Étant donné le contexte de la réalisation de ce projet, je ne peux pas donner de source code.",
+        disclaimer: "Étant donné le contexte de la réalisation de ce projet, je ne peux pas donner de source code ni d'aperçu.",
         liens : {},
         content: (
             <div className="bg-[#18181b] rounded-2xl shadow-lg p-8 mb-10 border border-[#bfae4f]">

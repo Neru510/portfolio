@@ -7,8 +7,8 @@ export async function generateStaticParams() {
     return projects.map(proj => ({ id: proj.id }));
 }
 
-export default function ProjectPage({ params }) {
-    const { id } = params;
+export default async function ProjectPage({ params }) {
+    const { id } = await params;
 
     return (
         <div>

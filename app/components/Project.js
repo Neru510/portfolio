@@ -33,9 +33,6 @@ export default function Project({ nomProjet }) {
         return subskills[idSkill]?.[lvl]?.[0] || "";
     }
 
-
-    console.log(preuves);
-
     return (
         <section className="w-full pt-30 text-gray-100 py-10 px-0">
             {/* Header */}
