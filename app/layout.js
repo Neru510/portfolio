@@ -1,13 +1,14 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { albertSans } from './fonts';
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
+  variable: "--Alexandria-geist-sans",
   subsets: ["latin"],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+  variable: "--Alexandria-geist-mono",
   subsets: ["latin"],
 });
 
@@ -18,7 +19,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={albertSans.className}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
