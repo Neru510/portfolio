@@ -6,6 +6,7 @@ import Skills from "@/app/components/Skills";
 import SubSkills from "@/app/components/SubSkills";
 
 export default function Project({ nomProjet }) {
+    const [current, setCurrent] = useState(0);
     const project = projects.find(s => s.id === String(nomProjet));
     if (!project) return <div className="text-center text-red-500 py-8">Projet introuvable.</div>;
 
@@ -13,7 +14,6 @@ export default function Project({ nomProjet }) {
     const preuves = images?.preuves || [];
 
     // Carousel state
-    const [current, setCurrent] = useState(0);
 
 
     // Group skills by idSkill

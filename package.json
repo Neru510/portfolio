@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "echo 'nojekyll' > out/.nojekyll",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "next": "^15.3.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
@@ -20,5 +23,5 @@
     "postcss": "^8.5.4",
     "tailwindcss": "^4.1.8"
   },
-  "homepage": "https://ton-username.github.io/portfolio"
+  "homepage": "https://neru510.github.io/portfolio"
 }

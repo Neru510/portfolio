@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function LinkHover({ text, href, previewImage }) {
     const [showPreview, setShowPreview] = useState(false);
@@ -32,11 +33,13 @@ export default function LinkHover({ text, href, previewImage }) {
                         pointerEvents: "none",
                     }}
                 >
-                    <img
+                    <Image
                         src={previewImage}
                         alt={`Aperçu de ${href}`}
                         className="object-cover w-full"
                         style={{ maxHeight: "300px" }}
+                        width={previewImage.width}
+                        height={previewImage.height}
                     />
                     <div className="text-xs p-2 bg-gray-800 text-white">
                         {new URL(href).hostname}
