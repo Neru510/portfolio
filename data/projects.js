@@ -20,105 +20,136 @@ export const projects = [
         liens : {},
         content: (
             <div className="bg-[#18181b] rounded-2xl shadow-lg p-8 mb-10 border border-[#bfae4f]">
+                <h1 className="text-2xl font-bold text-[#bfae4f] mb-6 tracking-wide text-center">
+                    GoPetSit — Développement d’un site web pour une start-up
+                </h1>
+                <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4 gap-2">
+                    <span className="text-gray-300 text-sm italic">Durée : 5 mois (en parallèle de mes études)</span>
+                    <span className="bg-[#bfae4f]/20 text-[#bfae4f] font-semibold px-3 py-1 rounded-full text-xs">Projet rémunéré</span>
+                </div>
                 <p className="mb-6 text-justify text-gray-200 leading-relaxed">
-                    Le projet <span className="font-semibold text-[#bfae4f]">GoPetSit</span>, réalisé en parallèle de mes études sur une période de cinq mois, consistait en la création d'un site web pour une start-up. Ce projet rémunéré a été une expérience enrichissante qui m'a permis de développer des compétences techniques et de gestion de projet, tout en apprenant à jongler entre travail, vie personnelle et études.
+                    Le projet GoPetSit consistait en la création d’un site web pour une start-up. Cette expérience, à la fois technique et humaine, m’a permis de développer des compétences solides en développement web, en gestion de projet et en travail d’équipe, tout en apprenant à concilier études, travail et vie personnelle.
                 </p>
 
-                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">Réalisation Technique</h2>
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Réalisation technique
+                </h2>
                 <ul className="list-disc list-inside space-y-2 text-gray-300 pl-2">
                     <li>
-                        <span className="font-semibold text-yellow-300">Technologies Utilisées</span> : Nous avons utilisé le framework <span className="font-semibold text-yellow-200">Symfony</span> pour le développement du site web. J'ai également travaillé sur le design avec <span className="font-semibold text-yellow-200">CSS Tailwind</span> et <span className="font-semibold text-yellow-200">JavaScript</span>, et implémenté des plugins pour la recherche d'adresses et les cartes.
+                        <span className="font-semibold text-yellow-300">Technologies utilisées</span> : Le site a été développé avec le framework <span className="font-semibold text-yellow-200">Symfony</span>, associé à <span className="font-semibold text-yellow-200">Tailwind CSS</span> et <span className="font-semibold text-yellow-200">JavaScript</span> pour le design et l’interactivité. J’ai également intégré des plugins pour la recherche d’adresses et l’affichage de cartes. La base de données repose sur <span className="font-semibold text-yellow-200">MariaDB</span>.
                     </li>
                     <li>
-                        <span className="font-semibold text-yellow-300">Gestion de Projet</span> : En tant que cheffe de projet et Product Owner, j'ai été responsable de la collecte et de la formalisation des besoins du client, ainsi que de la gestion d'une équipe de six étudiants. J'ai élaboré un cahier des charges et défini une démarche de suivi de projet pour assurer la qualité et la livraison dans les délais.
+                        <span className="font-semibold text-yellow-300">Architecture et sécurité</span> : J’ai conçu l’architecture technique du projet, veillant à la modularité et à la sécurité des services et des données.
                     </li>
                     <li>
-                        <span className="font-semibold text-yellow-300">Architecture et Développement</span> : J'ai choisi et implémenté les architectures adaptées pour le projet, et développé des applications sur des supports spécifiques. J'ai également travaillé sur la sécurisation des services et des données du système.
+                        <span className="font-semibold text-yellow-300">Applications communicantes</span> : Le projet incluait le développement d’applications interconnectées, adaptées aux besoins spécifiques de l’entreprise.
                     </li>
                 </ul>
 
-                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">Compétences Acquises</h2>
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Gestion de projet
+                </h2>
+                <ul className="list-disc list-inside space-y-2 text-gray-300 pl-2">
+                    <li>Défini et formalisé les besoins du client via un cahier des charges précis.</li>
+                    <li>Coordonné une équipe de six étudiants, en mettant en place une démarche de suivi agile pour garantir la qualité et le respect des délais.</li>
+                    <li>Utilisé des outils de gestion pour assurer la traçabilité et l’efficacité du développement.</li>
+                </ul>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Compétences développées
+                </h2>
                 <ul className="list-disc list-inside space-y-2 text-gray-300 pl-2">
                     <li>
-                        <span className="font-semibold text-yellow-300">Développement Technique</span> : J'ai acquis des compétences en <span className="font-semibold text-yellow-200">Symfony</span>, <span className="font-semibold text-yellow-200">CSS Tailwind</span>, <span className="font-semibold text-yellow-200">JavaScript</span>, et en intégration de plugins. J'ai également appris à concevoir et développer des applications communicantes.
+                        <span className="font-semibold text-yellow-300">Techniques</span> : Maîtrise de <span className="font-semibold text-yellow-200">Symfony</span>, <span className="font-semibold text-yellow-200">Tailwind CSS</span>, <span className="font-semibold text-yellow-200">JavaScript</span>, intégration de services tiers, conception de bases de données (<span className="font-semibold text-yellow-200">MariaDB</span>).
                     </li>
                     <li>
-                        <span className="font-semibold text-yellow-300">Gestion de Projet</span> : J'ai développé des compétences en gestion de projet, notamment en appréhendant les besoins du client, en mettant en place des outils de gestion de projet, et en formalisant les besoins du client.
+                        <span className="font-semibold text-yellow-300">Gestion</span> : Approche client, rédaction fonctionnelle, gestion d’équipe et planification.
                     </li>
                     <li>
-                        <span className="font-semibold text-yellow-300">Travail d'Équipe</span> : Travailler avec une équipe de six étudiants m'a permis d'acquérir des compétences interpersonnelles essentielles pour le travail collaboratif. J'ai appris à identifier les statuts, les fonctions et les rôles de chaque membre d'une équipe pluridisciplinaire.
+                        <span className="font-semibold text-yellow-300">Collaboratives</span> : Communication, répartition des rôles, travail en équipe pluridisciplinaire.
                     </li>
                 </ul>
 
-                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">Résultats et Réflexions</h2>
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Bilan
+                </h2>
                 <p className="text-justify text-gray-200 leading-relaxed">
-                    Le projet GoPetSit a été une expérience très enrichissante qui m'a permis de développer des compétences techniques et de gestion de projet. J'ai appris à être autonome, à gérer mon temps efficacement et à travailler en équipe. Ce projet a également été une excellente opportunité pour appliquer des principes d'accessibilité et d'ergonomie, et pour me familiariser avec de nouvelles technologies et méthodologies de travail.
+                    GoPetSit a été une expérience extrêmement formatrice, me permettant de gagner en autonomie, en rigueur et en adaptabilité. Ce projet m’a également sensibilisée à l’ergonomie et à l’accessibilité, tout en me confrontant à des méthodologies de travail proches du milieu professionnel.
                 </p>
             </div>
 
         ),
-        skills_overview : [1,3,4,5,6],
+        skills_overview : [1, 3, 4, 5, 6],
         skills : [
             {
-                idSkill : 1,
+                idSkill: 1,
                 idSubSkill: 1,
-                lvl : 2,
-                justification : "J'ai recueilli et formalisé les besoins du client pour créer un cahier des charges " +
-                    "détaillé, en traduisant les exigences en spécifications fonctionnelles et non fonctionnelles. Cela " +
-                    "a nécessité une analyse minutieuse et une communication efficace pour garantir que le produit final " +
-                    "réponde aux attentes du client tout en respectant les contraintes techniques et budgétaires."
+                lvl: 2,
+                justification: "J'ai recueilli et formalisé les besoins du client pour produire un cahier des charges structuré, " +
+                    "comprenant les spécifications fonctionnelles (AC1) et non fonctionnelles (AC1). Ce travail a nécessité une " +
+                    "analyse précise des exigences métiers et techniques, ainsi qu'une communication claire et régulière avec la " +
+                    "cliente. Ce processus m'a permis d’assurer que les fonctionnalités livrées répondent aux attentes, tout en tenant " +
+                    "compte des contraintes de faisabilité."
             },
             {
                 idSkill: 1,
                 idSubSkill: 4,
-                lvl : 2,
-                justification: "J'ai mis en place une stratégie de tests rigoureuse incluant des tests unitaires, " +
-                    "d'intégration et système. Des outils de test automatisés ont permis d'identifier et de corriger " +
-                    "rapidement les bugs. Des sessions de tests utilisateurs ont validé que l'application répondait aux " +
-                    "attentes, assurant un produit de haute qualité, conforme aux spécifications et prêt pour le déploiement."
+                lvl: 2,
+                justification: "J’ai mis en œuvre une stratégie de tests complète (AC4), intégrant des tests unitaires, d’intégration et système. " +
+                    "L'utilisation d'outils automatisés m'a permis de détecter rapidement les anomalies, tandis que des tests utilisateurs " +
+                    "ont validé l’ergonomie et l’accessibilité (AC2) de l’interface. Ce dispositif a garanti une application stable, " +
+                    "robuste et conforme aux spécifications."
             },
             {
                 idSkill: 3,
                 idSubSkill: 1,
-                lvl : 2, justification: "J'ai conçu et développé des applications communicantes en utilisant le framework Symfony " +
-                    "pour gérer les interactions entre les différents composants du système. Cela a permis une intégration " +
-                    "fluide et une communication efficace entre les modules du site web."
+                lvl: 2,
+                justification: "J'ai conçu et développé des applications communicantes (AC1) avec Symfony, en organisant la structure " +
+                    "backend autour de services RESTful pour assurer une communication fluide entre les modules. Cette approche a facilité " +
+                    "l’intégration des composants du site et leur évolution future."
             },
             {
                 idSkill: 3,
                 idSubSkill: 3,
-                lvl : 2, justification: "J'ai sécurisé les services et les données en protégeant les routes et en effectuant des " +
-                    "vérifications rigoureuses dans les méthodes du projet Symfony. Cela a inclus la mise en place de " +
-                    "contrôles d'accès et la validation des entrées pour prévenir les vulnérabilités courantes."
+                lvl: 2,
+                justification: "Pour sécuriser les services et les données (AC3), j'ai appliqué des bonnes pratiques telles que la " +
+                    "protection des routes sensibles, la gestion fine des droits d’accès et la validation des données en entrée. " +
+                    "Ces mesures ont permis de prévenir les vulnérabilités courantes comme l’injection ou l’élévation de privilèges."
             },
             {
                 idSkill: 4,
                 idSubSkill: 3,
-                lvl : 2, justification: "J'ai développé une partie du front-end du site de pet-sitting, en mettant l'accent sur " +
-                    "des fonctionnalités comme le choix sur la carte et la modification des paramètres. Cela a permis " +
-                    "aux utilisateurs d'interagir efficacement avec les données présentées."
+                lvl: 2,
+                justification: "J’ai développé des interfaces interactives permettant aux utilisateurs de visualiser et de modifier " +
+                    "des données via des éléments tels que les cartes et les formulaires dynamiques (AC3). J’ai veillé à structurer " +
+                    "les données côté front-end de manière intuitive, facilitant ainsi la restitution visuelle et la manipulation " +
+                    "des informations de manière fluide."
             },
             {
                 idSkill: 5,
                 idSubSkill: 3,
-                lvl : 2, justification: "J'ai évalué la faisabilité du projet en tenant compte des contraintes telles que le fait " +
-                    "qu'il était réalisé en parallèle des études, avec une équipe composée uniquement d'étudiants, et en " +
-                    "utilisant des solutions open source autant que possible."
+                lvl: 2,
+                justification: "J’ai évalué la faisabilité du projet (AC3) en tenant compte de contraintes multiples : budget nul, " +
+                    "disponibilité partielle de l’équipe (projet réalisé en parallèle des études), et choix d’un stack technologique " +
+                    "open source pour optimiser les ressources. Cette analyse a permis de concevoir un périmètre réaliste et cohérent " +
+                    "avec les moyens disponibles."
             },
             {
                 idSkill: 5,
                 idSubSkill: 4,
-                lvl : 2, justification: "J'ai mis en place une méthodologie de suivi de projet basée sur Scrum, incluant des " +
-                    "réunions d'avancement hebdomadaires et des revues de sprint avec la cliente toutes les deux semaines " +
-                    "pour assurer le respect des échéances et la qualité des livrables."
+                lvl: 2,
+                justification: "J’ai instauré une méthodologie de gestion de projet basée sur Scrum (AC4), avec des réunions " +
+                    "hebdomadaires de suivi interne et des revues de sprint bimensuelles avec la cliente. Ces rituels ont facilité " +
+                    "le suivi de l’avancement, l’adaptation continue aux retours, et le respect des échéances."
             },
             {
                 idSkill: 6,
                 idSubSkill: 3,
-                lvl : 2, justification: "Pour la compétence 6, j'ai attribué les rôles de \"chef de projet\", \"tech lead\", " +
-                    "\"développeur front-end\" et \"développeur\" selon les préférences de chacun. Cette répartition a " +
-                    "clarifié les responsabilités et optimisé l'efficacité de l'équipe. Cela a favorisé une collaboration " +
-                    "harmonieuse et une meilleure productivité."
+                lvl: 2,
+                justification: "Pour renforcer la cohésion et l’efficacité de l’équipe (AC3), j’ai organisé une répartition claire " +
+                    "des rôles : cheffe de projet, tech lead, développeurs front-end et back-end. Chaque membre a pu s’épanouir dans " +
+                    "une fonction correspondant à ses appétences et compétences, ce qui a favorisé une dynamique de groupe constructive " +
+                    "et une meilleure coordination."
             }
         ]
     },
@@ -189,88 +220,104 @@ export const projects = [
 
         ),
         skills_overview : [1,2,3,4,5,6],
-        skills : [
+        skills: [
             {
                 idSkill: "1",
                 idSubSkill: "1",
-                lvl : 2, justification: "J'ai élaboré et implémenté les spécifications fonctionnelles et non fonctionnelles en " +
-                    "définissant les besoins du projet CTF+Z, notamment en adaptant la plateforme CTFd pour répondre aux " +
-                    "exigences spécifiques des compétitions de type \"Capture The Flag\"."
+                lvl: 2,
+                justification: "J'ai élaboré et implémenté les spécifications fonctionnelles et non fonctionnelles en " +
+                    "définissant les besoins du projet CTF+Z, notamment en adaptant la plateforme open source CTFd " +
+                    "aux exigences spécifiques des compétitions de type 'Capture The Flag', ce qui m'a permis de " +
+                    "traduire efficacement les attentes utilisateurs en solutions concrètes."
             },
             {
                 idSkill: "1",
                 idSubSkill: "2",
-                lvl : 2, justification: "J'ai appliqué des principes d'accessibilité et d'ergonomie en concevant une interface " +
-                    "utilisateur intuitive pour le site web, facilitant la navigation et l'interaction des utilisateurs " +
-                    "avec les défis proposés."
+                lvl: 2,
+                justification: "J'ai appliqué des principes d'accessibilité et d'ergonomie en concevant une interface " +
+                    "utilisateur claire et intuitive. Cela a facilité la navigation dans l'application, notamment la " +
+                    "sélection des défis, la consultation du classement et la soumission des flags, pour offrir une " +
+                    "expérience fluide à tous les profils d'utilisateurs."
             },
             {
                 idSkill: "2",
                 idSubSkill: "1",
-                lvl : 2, justification: "J'ai choisi et utilisé des structures de données adaptées pour gérer les défis et les " +
-                    "utilisateurs dans le cadre du projet, assurant ainsi une gestion efficace des données et des " +
-                    "interactions au sein de l'application."
+                lvl: 2,
+                justification: "J'ai choisi et utilisé des structures de données appropriées pour la gestion des utilisateurs, " +
+                    "des équipes, des défis et des scores. Ces choix ont permis d’optimiser l’organisation de l'information " +
+                    "et d’assurer la performance et la cohérence des interactions dans l’application."
             },
             {
                 idSkill: "3",
                 idSubSkill: "1",
-                lvl : 2, justification: "J'ai conçu et développé des applications communicantes en utilisant Flask pour créer " +
-                    "une plateforme interactive où les utilisateurs peuvent participer à des défis et interagir avec le " +
-                    "système."
+                lvl: 2,
+                justification: "J'ai conçu et développé une application communicante en utilisant Flask, où les utilisateurs " +
+                    "peuvent interagir avec une plateforme dynamique pour résoudre des défis et soumettre leurs réponses. " +
+                    "L'architecture backend assure une gestion centralisée des scores et des validations."
             },
             {
                 idSkill: "3",
                 idSubSkill: "2",
-                lvl : 2, justification: "J'ai utilisé Docker pour la gestion de conteneurs et déployé l'application sur un VPS, " +
-                    "ce qui m'a permis de me familiariser avec les technologies de virtualisation et la gestion de serveurs."
+                lvl: 2,
+                justification: "J'ai déployé l'application sur un VPS en utilisant Docker, ce qui m’a permis de maîtriser " +
+                    "l'encapsulation de services dans des conteneurs, la configuration réseau et la mise en production " +
+                    "dans un environnement virtualisé fiable et sécurisé."
             },
             {
                 idSkill: "3",
                 idSubSkill: "3",
-                lvl : 2, justification: "J'ai sécurisé les services et les données en mettant en place des protocoles de sécurité " +
-                    "pour protéger les informations sensibles et assurer l'intégrité des données sur le serveur."
+                lvl: 2,
+                justification: "J’ai sécurisé l’application en mettant en œuvre des mesures comme la gestion des droits " +
+                    "d’accès, la validation des entrées, le chiffrement des mots de passe et la configuration HTTPS. " +
+                    "Ces actions ont permis de garantir la confidentialité et l’intégrité des données utilisateurs."
             },
             {
                 idSkill: "4",
                 idSubSkill: "3",
-                lvl : 2, justification: "J'ai organisé la restitution des données en développant des interfaces pour visualiser " +
-                    "les résultats des défis et les classements, facilitant ainsi l'accès et la compréhension des " +
-                    "informations par les utilisateurs."
+                lvl: 2,
+                justification: "J’ai organisé la restitution des données en développant des tableaux de scores, " +
+                    "des historiques de participation et des statistiques accessibles via l’interface, afin " +
+                    "d’offrir une visualisation claire de la progression des utilisateurs et de leurs performances."
             },
             {
                 idSkill: "4",
                 idSubSkill: "4",
-                lvl : 2, justification: "J'ai manipulé des données hétérogènes en gérant les entrées et sorties des utilisateurs, " +
-                    "ainsi que les résultats des défis, assurant une intégration cohérente et efficace des différentes " +
-                    "sources de données."
+                lvl: 2,
+                justification: "J’ai manipulé des données hétérogènes provenant des inscriptions, des soumissions de défis, " +
+                    "et des résultats pour les agréger et les traiter de manière uniforme. Ce traitement a été essentiel " +
+                    "pour la cohérence de l'expérience utilisateur et la fiabilité des résultats."
             },
             {
                 idSkill: "5",
                 idSubSkill: "2",
-                lvl : 2, justification: "J'ai formalisé les besoins des utilisateurs en définissant les fonctionnalités requises " +
-                    "pour le site web, en m'assurant que les spécifications techniques répondaient aux attentes des " +
-                    "participants des compétitions CTF."
+                lvl: 2,
+                justification: "En tant que Product Owner, j’ai formalisé les besoins utilisateurs à travers la rédaction de " +
+                    "user stories, en tenant compte des contraintes spécifiques aux compétitions CTF. Cette démarche a permis " +
+                    "de cadrer efficacement les objectifs techniques et fonctionnels."
             },
             {
                 idSkill: "5",
                 idSubSkill: "3",
-                lvl : 2, justification: "Lors du sprint 0, j'ai identifié les critères de faisabilité en évaluant les coûts des " +
-                    "serveurs, en comparant les plateformes disponibles, et en étudiant la mise en place d'un CTF. Cela " +
-                    "a permis de déterminer la viabilité du projet et de planifier les ressources nécessaires pour sa réussite."
+                lvl: 2,
+                justification: "J'ai évalué la faisabilité du projet lors du sprint 0 en analysant les ressources disponibles, " +
+                    "les coûts d’hébergement, les limites de la plateforme CTFd, ainsi que les compétences de l’équipe. " +
+                    "Cela a permis de dimensionner le projet de manière réaliste et durable."
             },
             {
                 idSkill: "5",
                 idSubSkill: "4",
-                lvl : 2, justification: "J'ai défini et mis en œuvre une démarche de suivi de projet en utilisant la méthodologie " +
-                    "Scrum, incluant des revues de sprint régulières pour assurer le respect des échéances et la qualité " +
-                    "des livrables."
+                lvl: 2,
+                justification: "J’ai mis en œuvre une démarche de suivi de projet rigoureuse en appliquant la méthode Scrum, " +
+                    "avec des cérémonies régulières (daily meetings, sprint planning, sprint reviews) permettant de suivre " +
+                    "l’évolution du travail, d’ajuster les priorités et d’assurer la livraison dans les temps."
             },
             {
                 idSkill: "6",
                 idSubSkill: "3",
-                lvl : 2, justification: "J'ai mobilisé mes compétences interpersonnelles pour collaborer efficacement au sein d'une " +
-                    "équipe pluridisciplinaire, en facilitant la communication et la coordination pour atteindre les objectifs " +
-                    "du projet malgré les contraintes géographiques."
+                lvl: 2,
+                justification: "J’ai mobilisé mes compétences interpersonnelles pour garantir une collaboration efficace à distance, " +
+                    "en assurant la coordination entre les membres, en animant les réunions et en facilitant la prise de décision " +
+                    "collective. Cette capacité d’adaptation a été essentielle pour la réussite du projet."
             }
         ]
     },
@@ -335,75 +382,74 @@ export const projects = [
 
         ),
         skills_overview : [1,2,3,4,6],
-        skills : [
+        skills: [
             {
                 idSkill: "1",
                 idSubSkill: "2",
-                lvl : 2, justification: "J'ai élaboré et implémenté des spécifications fonctionnelles et non fonctionnelles en " +
-                    "analysant les exigences des projets RPA. Par exemple, j'ai crée un robot selon des exigences (fonctionnels)" +
-                    "et j'ai implémenté un système de suivi de ce robot via des logs (non fonctionnels)"
+                lvl: 2,
+                justification: "J’ai élaboré et implémenté des spécifications fonctionnelles et non fonctionnelles en analysant les besoins des projets RPA. " +
+                    "Par exemple, j’ai conçu un robot en respectant les spécifications métier, tout en intégrant un système de logs pour assurer le suivi " +
+                    "et la traçabilité de son exécution."
             },
             {
                 idSkill: "1",
                 idSubSkill: "4",
-                lvl : 2, justification: "J'ai vérifié et validé la qualité des robots et des routes API que j'ai développé via Sonarqube " +
-                    "et des tests automatisés via pytest et pytest-coverage"
+                lvl: 2,
+                justification: "J’ai vérifié et validé la qualité des robots et des routes API développés en utilisant des outils comme SonarQube pour " +
+                    "l’analyse statique du code, ainsi que des tests automatisés avec Pytest et pytest-cov afin de garantir la robustesse et la fiabilité " +
+                    "des livrables."
             },
             {
                 idSkill: "2",
                 idSubSkill: "1",
-                lvl : 2, justification: "J'ai choisi des structures de données complexes adaptées aux processus automatisés, comme " +
-                    "l'utilisation de dictionnaires et de listes pour gérer les flux de données entre les robots et les " +
-                    "systèmes internes, optimisant ainsi l'efficacité des robots dans la manipulation de données structurées " +
-                    "et non structurées."
+                lvl: 2,
+                justification: "J’ai sélectionné des structures de données adaptées à la logique métier des processus automatisés, notamment des dictionnaires " +
+                    "et des listes pour organiser les échanges entre les robots et les systèmes tiers, optimisant ainsi la performance des scripts " +
+                    "dans des contextes de données variées et dynamiques."
             },
             {
                 idSkill: "3",
                 idSubSkill: "2",
-                lvl : 2, justification: "J'ai utilisé des machines virtuelles pour la migration des robots, en installant et " +
-                    "configurant les environnements nécessaires pour chaque robot. Cela a inclus le débogage et l'ajout " +
-                    "de logs pour le suivi, assurant ainsi la sécurité et la stabilité des services lors de la migration " +
-                    "vers de nouvelles infrastructures."
+                lvl: 2,
+                justification: "J’ai utilisé des machines virtuelles pour migrer des robots vers une nouvelle infrastructure, en installant les environnements " +
+                    "nécessaires, en assurant leur configuration correcte, et en ajoutant des outils de suivi (logs, gestion des erreurs) afin d’assurer " +
+                    "une migration sécurisée et stable."
             },
             {
                 idSkill: "4",
                 idSubSkill: "3",
-                lvl : 2, justification: "J'ai organisé la restitution des données en développant des tableaux de bord et des " +
-                    "rapports automatisés pour visualiser les résultats des processus RPA, facilitant ainsi l'analyse " +
-                    "des performances des robots et permettant aux parties prenantes de suivre les indicateurs clés de " +
-                    "performance."
+                lvl: 2,
+                justification: "J’ai développé des outils de restitution comme des rapports automatisés et des tableaux de bord dynamiques, permettant " +
+                    "de suivre les performances des robots, d’analyser les écarts et d’offrir une visibilité claire sur les indicateurs de pilotage."
             },
             {
                 idSkill: "6",
                 idSubSkill: "1",
-                lvl : 2, justification: "J'ai pu observer comment différents processus métiers nécessitaient l'intervention de la " +
-                    "RPA, ce qui m'a permis de comprendre l'importance et l'impact de l'automatisation dans divers " +
-                    "départements. La visite d'une Plateforme Industrielle Courrier (PIC) m'a également offert une " +
-                    "perspective concrète sur l'intégration des systèmes d'information dans les opérations logistiques."
+                lvl: 2,
+                justification: "J’ai observé et analysé l’intégration de la RPA dans les processus métiers de différents départements, ce qui m’a permis de " +
+                    "comprendre l’impact de l’automatisation sur les performances organisationnelles. La visite d’une Plateforme Industrielle Courrier (PIC) " +
+                    "m’a donné un aperçu concret des enjeux logistiques liés aux systèmes d’information."
             },
             {
                 idSkill: "6",
                 idSubSkill: "2",
-                lvl : 2, justification: "J'ai appliqué une démarche structurée pour m'intégrer efficacement au sein de l'équipe " +
-                    "RPA Factory, en participant activement aux réunions quotidiennes et aux réunions de développement " +
-                    "hebdomadaires. Cela a facilité mon intégration et ma collaboration avec les autres membres de " +
-                    "l'équipe pour atteindre les objectifs communs."
+                lvl: 2,
+                justification: "J’ai suivi une démarche structurée d’intégration en participant aux rituels d’équipe (réunions quotidiennes, rétrospectives) " +
+                    "et en m’impliquant activement dans les échanges, facilitant ainsi mon adaptation au sein de la RPA Factory."
             },
             {
                 idSkill: "6",
                 idSubSkill: "3",
-                lvl : 2,
-                justification: "J'ai mobilisé mes compétences interpersonnelles pour collaborer efficacement avec l'équipe, " +
-                    "en utilisant des outils de communication et en participant aux réunions régulières pour assurer une " +
-                    "coordination fluide et une résolution rapide des problèmes."
+                lvl: 2,
+                justification: "J’ai mobilisé mes compétences interpersonnelles pour collaborer efficacement, en utilisant des outils de communication internes " +
+                    "(Teams, Outlook) et en participant aux réunions techniques, assurant une bonne coordination et une résolution rapide des blocages."
             },
             {
                 idSkill: "6",
                 idSubSkill: "4",
-                lvl : 2,
-                justification: "J'ai rendu compte de mon activité professionnelle en documentant mes progrès et en " +
-                    "présentant régulièrement mes travaux lors des réunions d'équipe, assurant ainsi une transparence " +
-                    "et une communication efficace au sein de l'équipe."
+                lvl: 2,
+                justification: "J’ai régulièrement documenté et présenté mes avancées lors des points d’équipe, en expliquant les choix techniques, les résultats " +
+                    "obtenus et les difficultés rencontrées, contribuant ainsi à la transparence du projet et au bon suivi par les encadrants."
             }
         ]
     },
@@ -473,92 +519,93 @@ export const projects = [
             </div>
         ),
         skills_overview : [1,2,3,4,5,6],
-        skills : [
+        skills: [
             {
                 idSkill: "1",
                 idSubSkill: "1",
-                lvl : 2,
-                justification: "J'ai élaboré et implémenté des spécifications fonctionnelles et non fonctionnelles en " +
-                    "analysant les exigences de mon stage, ce qui a permis de définir clairement les attentes et les " +
-                    "contraintes du projet pour répondre aux besoins identifiés."
+                lvl: 2,
+                justification: "J'ai élaboré et implémenté des spécifications fonctionnelles et non fonctionnelles à partir " +
+                    "des exigences identifiées durant mon stage, en structurant les besoins métiers pour guider le développement " +
+                    "de l'application et assurer son adéquation aux attentes de l'organisation."
             },
             {
                 idSkill: "1",
                 idSubSkill: "3",
-                lvl : 2,
-                justification: "J'ai compris les enjeux et les moyens de sécurisation des données et du code en utilisant " +
-                    "PyServer et .htaccess pour sécuriser les routes selon les utilisateurs, assurant ainsi la protection " +
-                    "des informations sensibles sur le serveur de l'IUT."
+                lvl: 2,
+                justification: "J'ai compris les enjeux de la sécurité des données et du code en utilisant PyServer couplé " +
+                    "à .htaccess pour restreindre l’accès aux routes selon les profils utilisateurs, garantissant ainsi la " +
+                    "confidentialité des données et la robustesse du système sur le serveur de l'IUT."
             },
             {
                 idSkill: "2",
                 idSubSkill: "3",
-                lvl : 2,
-                justification: "J'ai compris les enjeux et les moyens de sécurisation des données et du code en mettant " +
-                    "en place des protocoles de sécurité et en utilisant des outils pour protéger les informations " +
-                    "sensibles et assurer l'intégrité des systèmes."
+                lvl: 2,
+                justification: "J'ai appliqué des mesures de sécurité logicielles et réseau, telles que la restriction d'accès, " +
+                    "la gestion des droits, et la validation des données, afin d'assurer la confidentialité, l'intégrité et la " +
+                    "disponibilité des informations dans un environnement virtualisé."
             },
             {
                 idSkill: "3",
                 idSubSkill: "1",
-                lvl : 2,
-                justification: "J'ai conçu et développé des applications communicantes en utilisant le serveur fourni par l'IUT pour " +
-                    "héberger les services, assurant une interaction fluide entre les différents composants du système."
+                lvl: 2,
+                justification: "J'ai conçu et développé des applications communicantes en exploitant les services réseau hébergés " +
+                    "sur le serveur de l’IUT, assurant une communication efficace entre les modules du système via des requêtes HTTP " +
+                    "et des échanges structurés avec une API."
             },
             {
                 idSkill: "3",
                 idSubSkill: "2",
-                lvl : 2,
-                justification: "J'ai utilisé le serveur de l'IUT pour déployer et gérer les applications, assurant ainsi " +
-                    "une gestion centralisée et sécurisée des services."
+                lvl: 2,
+                justification: "J'ai déployé et administré les services applicatifs sur un serveur distant, en assurant leur " +
+                    "stabilité, leur accessibilité sécurisée, et leur interconnexion avec les outils métiers de manière cohérente."
             },
             {
                 idSkill: "3",
                 idSubSkill: "3",
-                lvl : 2,
-                justification: "J'ai sécurisé les services et les données en configurant PyServer et .htaccess pour " +
-                    "contrôler l'accès aux routes, protégeant ainsi les informations sensibles et assurant l'intégrité " +
-                    "des systèmes."
+                lvl: 2,
+                justification: "J'ai sécurisé les services et les données en configurant l’accès aux routes via .htaccess et " +
+                    "en définissant des contrôles d’accès dans PyServer, afin de protéger les ressources sensibles et de prévenir " +
+                    "les accès non autorisés au sein de l'environnement réseau."
             },
             {
                 idSkill: "4",
                 idSubSkill: "3",
-                lvl : 2,
-                justification: "J'ai organisé la restitution des données en développant un robot qui récupérait des " +
-                    "informations depuis un fichier Excel, les manipulait et les envoyait à une API, facilitant ainsi " +
-                    "l'analyse et la compréhension des informations."
+                lvl: 2,
+                justification: "J'ai organisé la restitution de données via un script automatisé qui récupérait des informations " +
+                    "depuis un fichier Excel, les traitait et les envoyait à une API, facilitant la mise en forme et l’analyse " +
+                    "des données pour les utilisateurs finaux."
             },
             {
                 idSkill: "4",
                 idSubSkill: "4",
-                lvl : 2,
-                justification: "J'ai manipulé des données hétérogènes en récupérant et en traitant des informations " +
-                    "depuis un fichier Excel, assurant une gestion cohérente et efficace des données pour répondre aux " +
-                    "besoins du projet."
+                lvl: 2,
+                justification: "J'ai manipulé des données hétérogènes en extrayant des données tabulaires depuis Excel, en les " +
+                    "convertissant dans un format exploitable (JSON), et en les intégrant via une API, assurant une interopérabilité " +
+                    "entre sources de données disparates."
             },
             {
                 idSkill: "5",
                 idSubSkill: "1",
-                lvl : 2,
-                justification: "En recréant le système du robot, j'ai identifié les processus présents dans l'organisation, " +
-                    "ce qui m'a permis de comprendre comment améliorer les systèmes d'information et d'optimiser les flux " +
-                    "de travail."
+                lvl: 2,
+                justification: "J’ai analysé et reproduit le fonctionnement du robot utilisé pendant mon stage, ce qui m’a permis " +
+                    "d’identifier les processus existants dans l’organisation et de réfléchir à des améliorations possibles du " +
+                    "système d’information pour automatiser des tâches répétitives et réduire les erreurs humaines."
             },
             {
                 idSkill: "6",
                 idSubSkill: "1",
-                lvl : 2,
-                justification: "J'ai compris la diversité, la structure et la dimension de l'informatique dans une organisation " +
-                    "en étudiant les différents rôles et responsabilités au sein des structures informatiques, ce qui m'a " +
-                    "permis d'avoir une vision globale de l'intégration des systèmes d'information."
+                lvl: 2,
+                justification: "J’ai analysé la structure informatique de l’organisation en observant les flux de données, les rôles " +
+                    "des intervenants, et la place du système d’information dans la chaîne de valeur, ce qui m’a permis de comprendre " +
+                    "la complexité et l’importance stratégique des choix technologiques."
             },
             {
                 idSkill: "6",
                 idSubSkill: "4",
-                lvl : 2,
-                justification: "J'ai rendu compte de mon activité professionnelle en documentant et en présentant mes " +
-                    "travaux et réflexions, ce qui a été crucial pour la communication et la collaboration au sein de " +
-                    "l'organisation, ainsi que pour revoir ma place dans l'entreprise."
+                lvl: 2,
+                justification: "J’ai rendu compte de mon activité professionnelle par la rédaction de documents techniques, " +
+                    "la présentation orale de mon analyse et la formalisation de mes réflexions dans un livrable structuré, " +
+                    "permettant une évaluation claire de mes apports et de mon positionnement au sein du projet."
             }
         ]
     }
