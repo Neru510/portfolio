@@ -14,7 +14,6 @@ export default function Projects () {
                         nom={project.title}
                         desc={project.description}
                         logo={project.images.logo}
-                        skills_overview={project.skills_overview}
                         link={`/projets/${project.id}`}
                         img={project.images.preuves[0]}
                     />
