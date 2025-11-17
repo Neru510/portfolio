@@ -9,10 +9,10 @@ export default function Presentation() {
             >
                 À propos de moi
             </h1>
-            <div className="flex items-center justify-center">
-                <div className="w-full max-w-9xl mx-auto bg-gray-950/80 rounded-3xl shadow-2xl border border-[#D49C6A]/30 p-8 md:p-12 flex flex-col md:flex-row flex-nowrap gap-12 items-center backdrop-blur-sm">
+            <div className="flex items-center justify-center grow">
+                <div className="w-full mx-auto bg-gray-950/80 rounded-3xl shadow-2xl border border-[#D49C6A]/30 p-8 md:p-12 backdrop-blur-sm flex place-content-between gap-4 items-stretch">
                     {/* Texte */}
-                    <div className="md:flex-[3] text-gray-100 text-base md:text-lg leading-relaxed font-light max-w-7xl text-justify">
+                    <div className="md:flex-[3] text-gray-100 text-base md:text-lg leading-relaxed font-light text-justify">
                         <p>
                             Je suis animée par une idée simple :
                             <b className="font-semibold text-[#D49C6A]"> apprendre pour mieux comprendre, et comprendre pour mieux agir.</b>
@@ -56,7 +56,7 @@ export default function Presentation() {
 
 
                     {/* Image */}
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-col items-center justify-center grow">
                         <div className="w-70 h-70 min-w-50 min-h-50 rounded-full overflow-hidden border-4 border-[#D49C6A] shadow-xl bg-gray-900 flex items-center justify-center">
                             <Image
                                 src="/portfolio/img/pp.jpeg"
