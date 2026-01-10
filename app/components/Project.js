@@ -35,17 +35,25 @@ export default function Project({ nomProjet }) {
 
     return (
         <section className="w-full pt-30 text-gray-100 py-10 px-0">
+            <p>
+                <a className="flex items-center pl-15">
+                    <div>
+                        <img src="/portfolio/img/components/arrow-white.svg" width={30} alt="tkt"></img>
+                    </div>
+                    <p className="p-2">Retour aux projets</p>
+                </a>
+            </p>
             {/* Header */}
-            <div className="flex items-center gap-5 mb-8 px-4">
-                {images.logo && (
-                    <img
-                        src={images.logo}
-                        alt={title}
-                        className="w-20 h-20 object-contain rounded-full border-2 border-[#bfae4f] shadow"
-                    />
-                )}
-                <h1 className="text-4xl font-bold text-[#bfae4f]">{title}</h1>
-            </div>
+            {/*<div className="flex items-center gap-5 mb-8 px-4">*/}
+            {/*    {images.logo && (*/}
+            {/*        <img*/}
+            {/*            src={images.logo}*/}
+            {/*            alt={title}*/}
+            {/*            className="w-20 h-20 object-contain rounded-full border-2 border-[#bfae4f] shadow"*/}
+            {/*        />*/}
+            {/*    )}*/}
+            {/*    <h1 className="text-4xl font-bold text-[#bfae4f]">{title}</h1>*/}
+            {/*</div>*/}
 
             {/* Disclaimer */}
             {disclaimer && disclaimer !== "" && (

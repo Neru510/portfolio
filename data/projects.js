@@ -9,15 +9,16 @@ export const projects = [
             "entre travail, vie personnelle et études.",
         type : "Projet",
         images : {
-            logo : `${lien}gopetsit/logo.jpeg`,
+            logo : `${lien}gopetsit/logo.svg`,
             preuves : [
                 `${lien}gopetsit/img1.png`,
                 `${lien}gopetsit/img2.png`,
-                `${lien}gopetsit/img3.png`
             ]
         },
-        disclaimer: "Étant donné le contexte de la réalisation de ce projet, je ne peux pas donner de source code ni d'aperçu.",
-        liens : {},
+        disclaimer: "Étant donné le contexte de la réalisation de ce projet, je ne peux pas donner de code source.",
+        liens : {
+            depo: "https://gopetsit.com/",
+        },
         content: (
             <div className="bg-[#18181b] rounded-2xl shadow-lg p-8 mb-10 border border-[#bfae4f]">
                 <h1 className="text-2xl font-bold text-[#bfae4f] mb-6 tracking-wide text-center">
@@ -606,6 +607,155 @@ export const projects = [
                 justification: "J’ai rendu compte de mon activité professionnelle par la rédaction de documents techniques, " +
                     "la présentation orale de mon analyse et la formalisation de mes réflexions dans un livrable structuré, " +
                     "permettant une évaluation claire de mes apports et de mon positionnement au sein du projet."
+            }
+        ]
+    },
+    {
+        id : "ndi2025",
+        title: "Nuit de l'Info 2025",
+        description: "La Nuit de l'Info 2025 était un hackathon national où notre équipe avait 12 heures pour créer une application web autour du Numérique Inclusif, Responsable et Durable (NIRD). " +
+            "J'ai pris en charge le défi 'Carte des Talents', une plateforme permettant aux participants de lister et visualiser leurs compétences. " +
+            "Ce projet m'a permis de développer des compétences en résolution de problèmes techniques, gestion du temps et travail d'équipe sous pression.",
+        type : "Compétition Nationale",
+        images : {
+            preuves : [
+                `${lien}ndi2025/preuve1.png`,
+                `${lien}ndi2025/preuve2.png`
+            ]
+        },
+        liens : {
+            repo: "https://github.com/BollSudo/NDI2025",
+            depo: "https://ndi2025.bollmaster.com/",
+            drive: ""
+        },
+        content: (
+            <div className="bg-[#18181b] rounded-2xl shadow-lg p-8 mb-10 border border-[#bfae4f]">
+                <h1 className="text-2xl font-bold text-[#bfae4f] mb-6 tracking-wide text-center">
+                    Nuit de l’Info 2025 — Défi “Carte des Talents”
+                </h1>
+                <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4 gap-2">
+                    <span className="text-gray-300 text-sm italic">Durée : 1 nuit (compétition nationale en équipe)</span>
+                    <span className="bg-[#bfae4f]/20 text-[#bfae4f] font-semibold px-3 py-1 rounded-full text-xs">Hackathon</span>
+                </div>
+                <p className="mb-6 text-justify text-gray-200 leading-relaxed">
+                    La <span className="font-semibold text-yellow-300">Nuit de l’Info 2025</span> était un hackathon national où notre équipe de 6 étudiants avait 12 heures pour créer une application web autour du <span className="font-semibold text-yellow-200">Numérique Inclusif, Responsable et Durable (NIRD)</span>. J’ai pris en charge le défi <span className="font-semibold text-yellow-200">“Carte des Talents”</span>, une plateforme permettant aux participants de lister leurs compétences, passions et projets, et de les visualiser sous forme de carte interactive ou de nuage.
+                </p>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Préparation et Orientation
+                </h2>
+                <p className="mb-6 text-justify text-gray-200 leading-relaxed">
+                    Avant le hackathon, j’ai <span className="font-semibold text-yellow-300">recueilli des avis de professeurs</span> pour comprendre les attentes des recruteurs et des utilisateurs finaux. Ces retours m’ont permis de définir les fonctionnalités clés à prioriser : la clarté des profils, la facilité de recherche, et la visualisation des compétences.
+                </p>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Réalisation Technique
+                </h2>
+                <ul className="list-disc list-inside space-y-2 text-gray-300 pl-2">
+                    <li>
+                        <span className="font-semibold text-yellow-300">Architecture</span> : Développement d’une <span className="font-semibold text-yellow-200">API REST avec Symfony API Platform</span> pour le backend, et utilisation de <span className="font-semibold text-yellow-200">Vue.js</span> pour le frontend. Conteneurisation avec <span className="font-semibold text-yellow-200">Docker</span> et CI/CD via <span className="font-semibold text-yellow-200">GitHub Actions</span>.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">Défis techniques</span> : Résolution de problèmes complexes liés à la <span className="font-semibold text-yellow-200">gestion des tokens et de l’authentification</span>, ce qui a pris une grande partie du temps disponible.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">Fonctionnalités prévues</span> : Création de profils utilisateurs, recherche avancée, visualisation des talents, et système de badge “Talent Verified”.
+                    </li>
+                </ul>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Gestion de Projet et Collaboration
+                </h2>
+                <ul className="list-disc list-inside space-y-2 text-gray-300 pl-2">
+                    <li>Coordination avec une équipe de 6 étudiants, chacun sur un défi différent.</li>
+                    <li>Communication régulière sur l’avancement et les blocages techniques.</li>
+                    <li>Adaptabilité face aux imprévus et priorisation des tâches sous pression.</li>
+                </ul>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Compétences Développées
+                </h2>
+                <ul className="list-disc list-inside space-y-2 text-gray-300 pl-2">
+                    <li>
+                        <span className="font-semibold text-yellow-300">Techniques</span> : Résolution de problèmes d’authentification, utilisation de <span className="font-semibold text-yellow-200">Symfony API Platform</span>, <span className="font-semibold text-yellow-200">Vue.js</span>, <span className="font-semibold text-yellow-200">Docker</span>, et <span className="font-semibold text-yellow-200">GitHub Actions</span>.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">Méthodologiques</span> : Gestion du temps sous pression, priorisation des tâches, analyse des besoins utilisateurs.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">Collaboratives</span> : Travail d’équipe pluridisciplinaire, communication en situation de stress, résilience.
+                    </li>
+                </ul>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Bilan
+                </h2>
+                <p className="text-justify text-gray-200 leading-relaxed">
+                    Cette expérience m’a appris à <span className="font-semibold text-yellow-300">concilier rapidité et qualité</span>, à <span className="font-semibold text-yellow-300">m’adapter aux contraintes techniques</span>, et à <span className="font-semibold text-yellow-300">tirer des leçons des difficultés rencontrées</span>. Bien que toutes les fonctionnalités n’aient pas pu être implémentées, j’ai acquis une meilleure compréhension des enjeux d’authentification et une expérience précieuse en gestion de crise.
+                </p>
+            </div>
+        ),
+        skills_overview : [1, 2, 3, 4, 5, 6],
+        skills: [
+            {
+                idSkill: "1",
+                idSubSkill: "1",
+                lvl: 2,
+                justification: "J'ai élaboré et implémenté des spécifications fonctionnelles pour la 'Carte des Talents' à partir des retours de professeurs et des exigences du défi NIRD, en définissant les fonctionnalités clés (profil, recherche, visualisation) et en commençant leur implémentation avec Symfony API Platform et Vue.js."
+            },
+            {
+                idSkill: "1",
+                idSubSkill: "4",
+                lvl: 2,
+                justification: "J'ai testé manuellement les endpoints de l'API et la gestion des tokens pour m'assurer de leur bon fonctionnement, malgré le manque de temps pour automatiser ces tests. Cette démarche m'a permis de valider la qualité et la robustesse des solutions techniques mises en place."
+            },
+            {
+                idSkill: "2",
+                idSubSkill: "1",
+                lvl: 2,
+                justification: "J'ai choisi des structures de données adaptées pour les profils utilisateurs (compétences, langues, projets) en utilisant des entités Symfony et des modèles Vue.js, en veillant à l'efficacité des requêtes et à la cohérence des données."
+            },
+            {
+                idSkill: "3",
+                idSubSkill: "1",
+                lvl: 2,
+                justification: "J'ai développé une application communicante en séparant clairement le backend (Symfony API Platform) et le frontend (Vue.js), et en utilisant Docker pour la conteneurisation et GitHub Actions pour le CI/CD, assurant ainsi une communication fluide entre les modules."
+            },
+            {
+                idSkill: "3",
+                idSubSkill: "3",
+                lvl: 2,
+                justification: "J'ai passé du temps à résoudre les problèmes de tokens et d'authentification, ce qui m'a permis de mieux comprendre les enjeux de sécurité des APIs et d'appliquer des bonnes pratiques pour sécuriser les services et les données."
+            },
+            {
+                idSkill: "4",
+                idSubSkill: "3",
+                lvl: 2,
+                justification: "J'ai conçu une interface pour visualiser les compétences sous forme de carte ou de nuage, en pensant à l'ergonomie et à la lisibilité des données, afin d'offrir une restitution claire et intuitive pour les utilisateurs."
+            },
+            {
+                idSkill: "5",
+                idSubSkill: "2",
+                lvl: 2,
+                justification: "J'ai formalisé les besoins utilisateurs en recueillant des avis de professeurs et en traduisant leurs attentes en fonctionnalités concrètes pour la 'Carte des Talents', ce qui a permis d'orienter le développement vers une solution adaptée."
+            },
+            {
+                idSkill: "5",
+                idSubSkill: "3",
+                lvl: 2,
+                justification: "J'ai dû ajuster mes ambitions techniques en fonction du temps disponible, en priorisant la résolution des problèmes de tokens plutôt que l’implémentation de toutes les fonctionnalités, ce qui m'a permis d'évaluer la faisabilité du projet de manière réaliste."
+            },
+            {
+                idSkill: "5",
+                idSubSkill: "4",
+                lvl: 2,
+                justification: "J'ai travaillé en coordination avec mon équipe, en communiquant régulièrement sur l'avancement et les blocages, et en m'adaptant aux imprévus techniques, ce qui a facilité la gestion du projet dans un contexte agile et sous pression."
+            },
+            {
+                idSkill: "6",
+                idSubSkill: "3",
+                lvl: 2,
+                justification: "J'ai mobilisé mes compétences interpersonnelles pour collaborer efficacement avec mes coéquipiers, en communiquant clairement sur les problèmes techniques et en participant à la résolution collective des blocages, malgré la pression du temps limité."
             }
         ]
     }
