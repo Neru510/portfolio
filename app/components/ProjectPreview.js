@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Skills from "./Skills";
 
-export default function ProjectPreview({ nom, desc, img, skills_overview, link, logo }) {
+export default function ProjectPreview({ nom, desc, img, link, logo }) {
     return (
         <Link
             href={link}
@@ -48,12 +48,6 @@ export default function ProjectPreview({ nom, desc, img, skills_overview, link, 
                     <p className="text-gray-300 text-sm mb-4 text-justify line-clamp-4">
                         {desc}
                     </p>
-
-                    <div className="flex flex-wrap gap-2 mt-2">
-                        {skills_overview && skills_overview.map((id) => (
-                            <Skills key={id} id={id} />
-                        ))}
-                    </div>
                 </div>
             </div>
         </Link>

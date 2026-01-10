@@ -19,7 +19,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={albertSans.className}>
+    <html lang="fr" className={albertSans.className}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
