@@ -14,7 +14,7 @@ export default function Navbar() {
         <nav className="fixed w-full flex justify-center py-6 top-0 z-50 backdrop-blur-md bg-transparent">
             <ul className="flex space-x-8 rounded-full px-8 py-3 ">
                 <li>
-                    <a href="/" className={linkStyle}>
+                    <a href="/portfolio" className={linkStyle}>
                         Home
                     </a>
                 </li>
