@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import Skills from "./Skills";
 
 export default function ProjectPreview({ nom, desc, img, link, logo }) {
     return (

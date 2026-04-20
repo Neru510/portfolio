@@ -36,9 +36,9 @@ export default function Project({ nomProjet }) {
     return (
         <section className="w-full pt-30 text-gray-100 py-10 px-0">
             <p>
-                <a className="flex items-center pl-15">
+                <a href="/portfolio/#projets" className="flex items-center pl-15" aria-label="Retour aux projets">
                     <div>
-                        <img src="/portfolio/img/components/arrow-white.svg" width={30} alt="tkt"></img>
+                        <img src="/portfolio/img/components/arrow-white.svg" width={30} alt="Flèche retour"></img>
                     </div>
                     <p className="p-2">Retour aux projets</p>
                 </a>
@@ -93,16 +93,18 @@ export default function Project({ nomProjet }) {
                     <h2 className="text-3xl font-semibold text-yellow-400 mb-4">Aperçus du projet</h2>
                     <div className="relative flex flex-col items-center">
                         <img
-                            src={preuves[current]}
+                            src={ preuves[current] }
                             alt={`Preuve ${current + 1}`}
                             className="rounded-xl shadow border border-gray-700 bg-gray-900 mx-auto"
                             style={{
                                 maxWidth: "100%",
-                                maxHeight: "70vh", // Limite la hauteur à 70% de la fenêtre, ajuste si besoin
+                                maxHeight: "70vh",
                                 width: "auto",
                                 height: "auto",
                                 display: "block",
                             }}
+                            loading="lazy"
+                            decoding="async"
                         />
                         {/* Flèches de navigation */}
                         {preuves.length > 1 && (

@@ -3,6 +3,8 @@ export const projects = [
     {
         id : "gopetsit",
         title: "GoPetSit",
+        date: "2025-01",
+        dateLabel: "Janvier - Juillet 2025",
         description: "Le projet GoPetSit, réalisé en parallèle de mes études sur une période de cinq mois, consistait " +
             "en la création d'un site web pour une start-up de petsitting. Ce projet rémunéré a été une expérience enrichissante qui " +
             "m'a permis de développer des compétences techniques et de gestion de projet, tout en apprenant à jongler " +
@@ -157,6 +159,8 @@ export const projects = [
     {
         id : "ctfz",
         title: "CTF+Z",
+        date: "2025-09",
+        dateLabel: "Septembre 2025 - Décembre 2025",
         description: "Le projet CTF+Z, réalisé dans le cadre de la deuxième année de BUT Informatique, consistait en " +
             "la création d'un site web de \"Capture The Flag\" (CTF) et le développement de divers défis pour gagner " +
             "des flags. Ce projet, mené sur une période de trois mois en utilisant la méthodologie SCRUM, a été une " +
@@ -325,6 +329,8 @@ export const projects = [
     {
         id : "laposte",
         title: "Stage à La Poste",
+        date: "2025-01",
+        dateLabel: "Janvier - Avril 2025",
         description: "Dans le cadre de mon stage de deuxième année de BUT Informatique, j'ai eu l'opportunité de " +
             "travailler pendant 12 semaines au sein de la DSI BSCC de La Poste, plus précisément à la RPA Factory, " +
             "spécialisée dans la Robotic Process Automation (RPA). Ce stage a été une expérience professionnelle " +
@@ -457,6 +463,8 @@ export const projects = [
     {
         id : "sae401",
         title: "SAE 4.01",
+        date: "2025-04",
+        dateLabel: "Avril - Juin 2025",
         description: "Dans le cadre de mon deuxième semestre de la deuxième année de BUT Informatique, j'ai réalisé " +
             "une Situation d'Apprentissage et d'Évaluation (SAE) sur une période de deux mois et demi. Le sujet de cette " +
             "SAE était : \"En quoi l’intégration de votre projet réalisé dans le cadre de votre stage/alternance " +
@@ -613,6 +621,8 @@ export const projects = [
     {
         id : "ndi2025",
         title: "Nuit de l'Info 2025",
+        date: "2025-12",
+        dateLabel: "Décembre 2025",
         description: "La Nuit de l'Info 2025 était un hackathon national où notre équipe avait 12 heures pour créer une application web autour du Numérique Inclusif, Responsable et Durable (NIRD). " +
             "J'ai pris en charge le défi 'Carte des Talents', une plateforme permettant aux participants de lister et visualiser leurs compétences. " +
             "Ce projet m'a permis de développer des compétences en résolution de problèmes techniques, gestion du temps et travail d'équipe sous pression.",

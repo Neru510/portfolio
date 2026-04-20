@@ -1,15 +1,12 @@
 import Navbar from "@/app/components/Navbar";
-import HeroSection from "@/app/acceuil/HeroSection";
-import Presentation from "@/app/acceuil/Presentation";
-import Projects from "@/app/acceuil/Projects";
-import Contacts from "@/app/acceuil/Contacts";
-
-import SubSkills from "@/app/components/SubSkills";
-import Project from "@/app/components/Project";
+import HeroSection from "@/app/accueil/HeroSection";
+import Presentation from "@/app/accueil/Presentation";
+import Projects from "@/app/accueil/Projects";
+import Contacts from "@/app/accueil/Contacts";
 
 export default function Home() {
   return (
-      <div>
+      <div id="main-content">
           <Navbar />
           <HeroSection />
           <Presentation />
