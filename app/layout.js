@@ -16,12 +16,7 @@ export default function RootLayout({ children }) {
         >
           Aller au contenu principal
         </a>
-        <div className="bg-placeholder" aria-hidden="true" />
-        <div 
-          className="bg-layer loaded" 
-          style={{ backgroundImage: "url('/portfolio/img/background.jpg')" }} 
-          aria-hidden="true" 
-        />
+        <div className="bg-layer" aria-hidden="true" />
         {children}
       </body>
     </html>

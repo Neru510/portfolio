@@ -17,12 +17,9 @@
   }
 }
 
-.bg-loading {
-  background-image: url('/portfolio/img/background-thumb.jpg');
-}
-
 body {
   @apply min-h-screen;
+  background-color: #0a0a0a;
   background-attachment: fixed;
   color: var(--foreground);
 }
@@ -34,26 +31,5 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  opacity: 0;
-  transition: opacity 0.5s ease-in;
-}
-
-.bg-layer.loaded {
-  opacity: 1;
-}
-
-.bg-placeholder {
-  background-image: url('/portfolio/img/background-thumb.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -2;
+  background: url('/portfolio/img/background.jpg') no-repeat center center/cover;
 }
