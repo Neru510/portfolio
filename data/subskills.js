@@ -20,7 +20,21 @@ export const subskills = {
                 descr: "Vérifier et valider la qualité de l’application par les tests"
             }
         ],
-        3: []
+        3: [
+            "Adapter des applications sur un ensemble de supports (embarqué, web, mobile, IoT…)",
+            {
+                nom: 'AC1',
+                descr: "Choisir et implémenter les architectures adaptées"
+            },
+            {
+                nom: 'AC2',
+                descr: "Faire évoluer une application existante"
+            },
+            {
+                nom: 'AC3',
+                descr: "Intégrer des solutions dans un environnement de production"
+            },
+        ]
     },
     2: {
         1: [],
@@ -108,7 +122,21 @@ export const subskills = {
                 descr: "Définir et mettre en œuvre une démarche de suivi de projet"
             }
         ],
-        3: []
+        3: [
+            "Participer à la conception et à la mise en œuvre d’un projet système d’information",
+            {
+                nom: 'AC1',
+                descr : "Mesurer les impacts économiques, sociétaux et technologiques d’un projet informatique"
+            },
+            {
+                nom: 'AC2',
+                descr : "Savoir intégrer un projet informatique dans le système d’information d’une organisation"
+            },
+            {
+                nom: 'AC3',
+                descr : "Savoir adapter un système d’information"
+            },
+        ]
     },
     6: {
         1: [],
@@ -131,6 +159,24 @@ export const subskills = {
                 descr: "Rendre compte de son activité professionnelle"
             }
         ],
-        3: []
+        3: [
+            "Manager une équipe informatique",
+            {
+                nom: 'AC1',
+                descr: "Organiser et partager une veille technologique et informationnelle"
+            },
+            {
+                nom: 'AC2',
+                descr: "Identifier les enjeux de l’économie de l’innovation numérique"
+            },
+            {
+                nom: 'AC3',
+                descr: "Guider la conduite du changement informatique au sein d’une organisation"
+            },
+            {
+                nom: 'AC4',
+                descr: "Accompagner le management de projet informatique"
+            },
+        ]
     }
 };

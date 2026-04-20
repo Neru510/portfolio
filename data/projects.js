@@ -104,6 +104,12 @@ export const projects = [
                     "robuste et conforme aux spécifications."
             },
             {
+                idSkill: 1,
+                idSubSkill: 1,
+                lvl: 3,
+                justification: "J'ai choisi et implémenté l'architecture technique du projet : Symfony (MVC) associé à MariaDB, Tailwind CSS et JavaScript, avec l'intégration de plugins tiers (cartes, recherche d'adresses). Ce choix architectural a été guidé par les besoins d'une start-up web, en tenant compte de la modularité, de la maintenabilité et des contraintes budgétaires (stack open source)."
+            },
+            {
                 idSkill: 3,
                 idSubSkill: 1,
                 lvl: 2,
@@ -153,7 +159,51 @@ export const projects = [
                     "des rôles : cheffe de projet, tech lead, développeurs front-end et back-end. Chaque membre a pu s’épanouir dans " +
                     "une fonction correspondant à ses appétences et compétences, ce qui a favorisé une dynamique de groupe constructive " +
                     "et une meilleure coordination."
+            },
+            
+            {
+                idSkill: "1",
+                idSubSkill: "3",
+                lvl: 3,
+                justification: "J'ai déployé et mis en production le site GoPetSit, accessible en ligne à l'adresse gopetsit.com. Cela a impliqué la configuration du serveur, la sécurisation de l'environnement et la gestion du nom de domaine, pour une solution opérationnelle destinée à de vrais utilisateurs."
+            },
+            {
+                idSkill: "5",
+                idSubSkill: "1",
+                lvl: 3,
+                justification: "J'ai mesuré les impacts économiques et sociétaux du projet pour la start-up : le site constitue l'outil central de leur activité commerciale, facilitant la mise en relation entre petsitters et propriétaires d'animaux. J'ai tenu compte des contraintes budgétaires (stack open source) et des enjeux de visibilité en ligne pour une jeune entreprise."
+            },
+            {
+                idSkill: "5",
+                idSubSkill: "2",
+                lvl: 3,
+                justification: "J'ai intégré le projet dans le SI de la start-up en concevant une architecture complète (base de données MariaDB, services Symfony, front-end, plugins tiers), assurant l'interopérabilité entre les différents composants et leur cohérence avec les besoins métiers de l'entreprise."
+            },
+            {
+                idSkill: "5",
+                idSubSkill: "3",
+                lvl: 3,
+                justification: "J'ai adapté le SI tout au long du projet en fonction des retours du client et de l'évolution des besoins fonctionnels, ajustant la structure de la base de données et les fonctionnalités applicatives pour accompagner la croissance de la start-up."
+            },
+            {
+                idSkill: "6",
+                idSubSkill: "2",
+                lvl: 3,
+                justification: "J'ai accompagné la start-up dans la compréhension des enjeux de l'innovation numérique, en expliquant les choix techniques, les possibilités d'évolution du site et les opportunités offertes par le numérique pour leur modèle économique."
+            },
+            {
+                idSkill: "6",
+                idSubSkill: "3",
+                lvl: 3,
+                justification: "J'ai guidé la conduite du changement en formant le client à l'utilisation du back-office, en rédigeant de la documentation et en l'accompagnant dans l'appropriation de l'outil numérique central à son activité."
+            },
+            {
+                idSkill: "6",
+                idSubSkill: "4",
+                lvl: 3,
+                justification: "J'ai assuré le management du projet de bout en bout : cadrage des besoins avec le client, planification, suivi des livrables sur 5 mois en parallèle de mes études, gestion des priorités et communication régulière avec le client."
             }
+
         ]
     },
     {
@@ -457,7 +507,50 @@ export const projects = [
                 lvl: 2,
                 justification: "J’ai régulièrement documenté et présenté mes avancées lors des points d’équipe, en expliquant les choix techniques, les résultats " +
                     "obtenus et les difficultés rencontrées, contribuant ainsi à la transparence du projet et au bon suivi par les encadrants."
+            },
+            {
+                idSkill: "1",
+                idSubSkill: "1",
+                lvl: 3,
+                justification: "J'ai travaillé au sein d'une RPA Factory, ce qui implique de comprendre et d'utiliser des architectures adaptées à l'automatisation de processus. La création de routes API et la migration de robots vers de nouvelles infrastructures témoignent d'une capacité à choisir des architectures adaptées au contexte de production industriel."
+            },
+            {
+                idSkill: "1",
+                idSubSkill: "2",
+                lvl: 3,
+                justification: "J'ai réalisé la maintenance et la migration de robots RPA existants vers une nouvelle infrastructures, faisant donc évoluer des applications en production avec les contraintes de continuité de service que cela implique dans un contexte industriel."
+            },
+            {
+                idSkill: "1",
+                idSubSkill: "3",
+                lvl: 3,
+                justification: "J'ai participé à la mise en production de robots RPA, à leur déploiement et à leur intégration dans le SI de La Poste, dans un contexte professionnel réel et exigeant avec des contraintes de fiabilité et de disponibilité."
+            },
+            {
+                idSkill: "5",
+                idSubSkill: "1",
+                lvl: 3,
+                justification: "J'ai mesuré les impacts économiques de l'automatisation RPA sur les processus métiers de La Poste : gains de productivité, réduction des tâches répétitives pour les collaborateurs, et amélioration de la qualité de traitement. La visite d'une Plateforme Industrielle Courrier m'a permis d'appréhender concrètement ces enjeux."
+            },
+            {
+                idSkill: "5",
+                idSubSkill: "2",
+                lvl: 3,
+                justification: "J'ai intégré les robots RPA et les routes API développées dans le SI existant de La Poste, assurant leur interopérabilité avec les systèmes en place et le respect des standards internes de l'entreprise."
+            },
+            {
+                idSkill: "5",
+                idSubSkill: "3",
+                lvl: 3,
+                justification: "J'ai adapté le SI en migrant des robots vers de nouvelles infrastructures, en ajustant la configuration des environnements et en intégrant des outils de supervision (logs, gestion des erreurs) pour garantir la pérennité des automatisations."
+            },
+            {
+                idSkill: "6",
+                idSubSkill: "2",
+                lvl: 3,
+                justification: "J'ai été confronté aux enjeux de l'innovation numérique dans un grand groupe : la RPA comme levier de transformation digitale, les contraintes de gouvernance, et l'équilibre entre innovation et stabilité opérationnelle."
             }
+
         ]
     },
     {
@@ -768,5 +861,102 @@ export const projects = [
                 justification: "J'ai mobilisé mes compétences interpersonnelles pour collaborer efficacement avec mes coéquipiers, en communiquant clairement sur les problèmes techniques et en participant à la résolution collective des blocages, malgré la pression du temps limité."
             }
         ]
-    }
+    },
+    {
+        id: "snorlax",
+        title: "Snorlax — Site de critiques ",
+        date: "2025-11",
+        dateLabel: "Novembre 2025 - Janvier 2026",
+        description: "Projet académique réalisé en duo dans le cadre du BUT Informatique, consistant à développer une application full-stack autour du thème des critiques de recettes de cuisine, avec une API REST Symfony/API Platform et un client Vue.js.",
+        type: "Projet",
+        images: {
+            // logo: `${lien}snorlax/logo.svg`,
+            preuves: [
+            ]
+        },
+        liens: {
+            repo: "https://gitlabinfo.iutmontp.univ-montp2.fr/site-de-critiques", // à compléter avec l'URL de déploiement
+        },
+        content: (
+            <div className="bg-[#18181b] rounded-2xl shadow-lg p-8 mb-10 border border-[#bfae4f]">
+                <h1 className="text-2xl font-bold text-[#bfae4f] mb-6 tracking-wide text-center">
+                    Snorlax — Site de critiques
+                </h1>
+                <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4 gap-2">
+                    <span className="text-gray-300 text-sm italic">Durée : ~2 mois (projet académique en duo)</span>
+                    <span className="bg-[#bfae4f]/20 text-[#bfae4f] font-semibold px-3 py-1 rounded-full text-xs">SAE</span>
+                </div>
+                <p className="mb-6 text-justify text-gray-200 leading-relaxed">
+                    Snorlax est une application full-stack de critiques de recettes de cuisine. L'objectif était de concevoir un SI complet de bout en bout, comprenant une API REST et un client web, avec un déploiement en production sur serveur réel sécurisé.
+                </p>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Réalisation technique
+                </h2>
+                <ul className="list-disc list-inside space-y-2 text-gray-300 pl-2">
+                    <li>
+                        <span className="font-semibold text-yellow-300">API REST</span> : développée avec <span className="font-semibold text-yellow-200">Symfony</span> et <span className="font-semibold text-yellow-200">API Platform</span>, exposant les ressources (recettes, critiques, utilisateurs) selon les standards REST.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">Client web</span> : développé avec <span className="font-semibold text-yellow-200">Vue.js</span>, consommant l'API et offrant une interface utilisateur moderne et réactive.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">Déploiement</span> : mise en production sur un serveur réel avec sécurisation Apache (HTTPS, configuration des virtual hosts).
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">Gestion des rôles</span> : système de validation admin pour la modération des critiques.
+                    </li>
+                </ul>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Gestion de projet
+                </h2>
+                <ul className="list-disc list-inside space-y-2 text-gray-300 pl-2">
+                    <li>Travail en duo avec dépôt GitLab organisé (branches, commits, historique).</li>
+                    <li>Répartition explicite des tâches documentée dans le README.</li>
+                    <li>Respect d'une deadline fixe avec livrables normés (archive zip, README structuré, déploiement).</li>
+                    <li>Veille technologique sur API Platform et Vue.js via documentation officielle et ressources complémentaires.</li>
+                </ul>
+            </div>
+        ),
+        skills: [
+            {
+                idSkill: "1",
+                idSubSkill: "1",
+                lvl: 3,
+                justification: "J'ai choisi et implémenté une architecture full-stack moderne : API REST Symfony/API Platform côté back-end et client Vue.js côté front-end, avec une séparation claire des responsabilités et une communication par API standardisée."
+            },
+            {
+                idSkill: "1",
+                idSubSkill: "2",
+                lvl: 3,
+                justification: "J'ai fait évoluer l'application au fil du projet en ajoutant progressivement des fonctionnalités (système de critiques, modération, gestion des utilisateurs), en adaptant le modèle de données et l'API aux nouveaux besoins."
+            },
+            {
+                idSkill: "1",
+                idSubSkill: "3",
+                lvl: 3,
+                justification: "J'ai déployé l'application en production sur un serveur réel, avec configuration Apache, sécurisation HTTPS et mise en place d'un environnement opérationnel accessible en ligne."
+            },
+            {
+                idSkill: "5",
+                idSubSkill: "1",
+                lvl: 3,
+                justification: "J'ai réfléchi aux impacts sociétaux d'une plateforme de critiques (modération des contenus, responsabilité éditoriale) et mis en place un système de validation admin pour garantir la qualité et la conformité des publications."
+            },
+            {
+                idSkill: "5",
+                idSubSkill: "2",
+                lvl: 3,
+                justification: "J'ai conçu un SI complet de bout en bout : base de données, API REST, client web, déploiement. Tous les composants ont été intégrés de manière cohérente et interopérable."
+            },
+            {
+                idSkill: "5",
+                idSubSkill: "3",
+                lvl: 3,
+                justification: "J'ai adapté le SI en intégrant un système de permissions et de modération, traduisant une réflexion sur l'évolution des pratiques utilisateurs et l'adaptation de l'architecture aux contraintes fonctionnelles."
+            }
+        ]
+    },
+
 ]

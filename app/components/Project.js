@@ -86,56 +86,88 @@ export default function Project({ nomProjet }) {
                 {content}
             </div>
 
-            {/* Carousel d'aperçus */}
-            {preuves && preuves.length > 0 && (
+{/* Logo du projet */}
+            {images?.logo && (
+                <div className="flex items-center gap-4 mb-8 px-8">
+                    <img
+                        src={images.logo}
+                        alt={`${title} logo`}
+                        className="w-16 h-16 object-contain rounded-full border-2 border-[#bfae4f] shadow"
+                    />
+                    <h1 className="text-4xl font-bold text-[#bfae4f]">{title}</h1>
+                </div>
+            )}
+            {!images?.logo && (
+                <div className="mb-8 px-8">
+                    <h1 className="text-4xl font-bold text-[#bfae4f]">{title}</h1>
+                </div>
+            )}
+
+{/* Carousel d'aperçus */}
+            { preuves && preuves.length > 0 ? (
 
                 <div className="w-full flex flex-col items-center mb-12 px-4">
-                    <h2 className="text-3xl font-semibold text-yellow-400 mb-4">Aperçus du projet</h2>
-                    <div className="relative flex flex-col items-center">
-                        <img
-                            src={ preuves[current] }
-                            alt={`Preuve ${current + 1}`}
-                            className="rounded-xl shadow border border-gray-700 bg-gray-900 mx-auto"
-                            style={{
-                                maxWidth: "100%",
-                                maxHeight: "70vh",
-                                width: "auto",
-                                height: "auto",
-                                display: "block",
-                            }}
-                            loading="lazy"
-                            decoding="async"
-                        />
+                    <h2 className="text-3xl font-semibold text-yellow-400 mb-6">Aperçus du projet</h2>
+                    <div className="relative w-full max-w-4xl">
+                        <div className="overflow-hidden rounded-2xl bg-gray-900/50 backdrop-blur-sm border border-gray-800">
+                            <img
+                                src={ preuves[current] }
+                                alt={`Preuve ${current + 1}`}
+                                className="w-full h-auto max-h-[70vh] object-contain mx-auto transition-transform duration-500"
+                                style={{
+                                    display: "block",
+                                }}
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </div>
                         {/* Flèches de navigation */}
                         {preuves.length > 1 && (
                             <>
                                 <button
-                                    className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-[#bfae4f] text-black rounded-full p-2 shadow hover:bg-yellow-400 transition hover:cursor-pointer"
+                                    className="absolute top-1/2 left-4 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-[#bfae4f] text-black rounded-full shadow-lg hover:bg-yellow-400 hover:scale-110 transition-all duration-300 hover:cursor-pointer group"
                                     onClick={() => setCurrent((current - 1 + preuves.length) % preuves.length)}
                                     aria-label="Précédent"
                                 >
-                                    &#8592;
+                                    <svg className="w-5 h-5 transition-transform group-hover:-translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                                    </svg>
                                 </button>
                                 <button
-                                    className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-[#bfae4f] text-black rounded-full p-2 shadow hover:bg-yellow-400 transition hover:cursor-pointer"
+                                    className="absolute top-1/2 right-4 -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-[#bfae4f] text-black rounded-full shadow-lg hover:bg-yellow-400 hover:scale-110 transition-all duration-300 hover:cursor-pointer group"
                                     onClick={() => setCurrent((current + 1) % preuves.length)}
                                     aria-label="Suivant"
                                 >
-                                    &#8594;
+                                    <svg className="w-5 h-5 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                    </svg>
                                 </button>
                             </>
                         )}
-                        {/* Indicateurs */}
-                        <div className="flex justify-center mt-2 gap-2">
-                            {preuves.map((_, i) => (
+                    </div>
+                    {/* Indicateurs */}
+                    {preuves.length > 1 && (
+                        <div className="flex justify-center mt-6 gap-3">
+                            { preuves.map((_, i) => (
                                 <button
                                     key={i}
-                                    className={`w-3 h-3 rounded-full ${i === current ? 'bg-[#bfae4f]' : 'bg-gray-700'}`}
+                                    className={`relative h-2 rounded-full transition-all duration-300 hover:cursor-pointer ${
+                                        i === current 
+                                            ? 'w-8 bg-[#bfae4f]' 
+                                            : 'w-2 bg-gray-700 hover:bg-gray-500'
+                                    }`}
                                     onClick={() => setCurrent(i)}
                                     aria-label={`Voir l'aperçu ${i + 1}`}
                                 />
                             ))}
                         </div>
+                    )}
+</div>
+            ) : (
+                <div className="w-full flex flex-col items-center mb-12 px-4">
+                    <h2 className="text-3xl font-semibold text-yellow-400 mb-6">Aperçus du projet</h2>
+                    <div className="w-full max-w-4xl h-64 flex items-center justify-center bg-gray-900/50 rounded-2xl border border-gray-800">
+                        <p className="text-gray-500">Aucune image disponible pour ce projet.</p>
                     </div>
                 </div>
             )}
