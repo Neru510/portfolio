@@ -1,4 +1,11 @@
-import Link from "next/link";
+"use client";
+import { useCallback } from "react";
+
+const scrollToSection = (id) => (e) => {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+};
 
 export default function Navbar() {
     const linkStyle =
@@ -7,24 +14,24 @@ export default function Navbar() {
         <nav className="fixed w-full flex justify-center py-6 top-0 z-50 backdrop-blur-md bg-transparent">
             <ul className="flex space-x-8 rounded-full px-8 py-3 ">
                 <li>
-                    <Link href="/" className={linkStyle}>
+                    <a href="/" className={linkStyle}>
                         Home
-                    </Link>
+                    </a>
                 </li>
                 <li>
-                    <Link href="/#about" className={linkStyle}>
+                    <a href="#about" onClick={scrollToSection("about")} className={linkStyle}>
                         À propos
-                    </Link>
+                    </a>
                 </li>
                 <li>
-                    <Link href="/#projets" className={linkStyle}>
+                    <a href="#projets" onClick={scrollToSection("projets")} className={linkStyle}>
                         Projets
-                    </Link>
+                    </a>
                 </li>
                 <li>
-                    <Link href="/#contact" className={linkStyle}>
+                    <a href="#contact" onClick={scrollToSection("contact")} className={linkStyle}>
                         Me contacter
-                    </Link>
+                    </a>
                 </li>
             </ul>
         </nav>
