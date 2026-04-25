@@ -1,6 +1,181 @@
 let lien = '/portfolio/img/projects/';
 export const projects = [
     {
+        id: "alternance",
+        title: "Alternance à Nudibranches Technologies ",
+        date: "2025-12",
+        dateLabel: "Décembre 2025 - Août 2026",
+        description: "Alternance à Nudibranches Technologies, en développement full-stack.",
+        type: "Alternance",
+        images: {
+            logo : `${lien}nudibranches/logo.png`,
+            preuves: [
+            ]
+        },
+        liens: {
+        },
+        content: (
+            <div className="bg-[#18181b] rounded-2xl shadow-lg p-8 mb-10 border border-[#bfae4f]">
+                <h1 className="text-2xl font-bold text-[#bfae4f] mb-6 tracking-wide text-center">
+                    Nudibranches Technologies — Alternance en développement fullstack & IA
+                </h1>
+                <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4 gap-2">
+                    <span className="text-gray-300 text-sm italic">Entreprise spécialisée en IA, DevOps et Cloud souverain — Montpellier</span>
+                    <span className="bg-[#bfae4f]/20 text-[#bfae4f] font-semibold px-3 py-1 rounded-full text-xs">Alternance</span>
+                </div>
+                <p className="mb-6 text-justify text-gray-200 leading-relaxed">
+                    Dans le cadre de mon alternance chez <span className="font-semibold text-[#bfae4f]">Nudibranches Technologies</span>, j&apos;ai eu l&apos;opportunité de contribuer à plusieurs projets concrets à forte dimension technique et IA. Cette expérience m&apos;a permis de monter en compétences en développement fullstack, de m&apos;impliquer dans des produits en cours de construction, et de mener en autonomie un projet de recherche et développement.
+                </p>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Projet Abyssens — Chatbot intelligent d&apos;interrogation de bases de données
+                </h2>
+                <p className="mb-4 text-justify text-gray-200 leading-relaxed">
+                    <span className="font-semibold text-[#bfae4f]">Abyssens</span> est un chatbot en ligne permettant aux utilisateurs d&apos;interroger facilement une base de données de leur choix en langage naturel, supprimant ainsi la nécessité de maîtriser des requêtes techniques. L&apos;objectif principal est le <span className="font-semibold text-yellow-200">gain de temps</span> et l&apos;accessibilité de la donnée pour tous les profils.
+                </p>
+                <ul className="list-disc list-inside space-y-2 text-gray-300 pl-2">
+                    <li>
+                        <span className="font-semibold text-yellow-300">Formulaire d&apos;avis sur les réponses IA</span> : Développement et intégration d&apos;un formulaire permettant aux utilisateurs d&apos;évaluer la pertinence des réponses générées par l&apos;IA, contribuant ainsi à l&apos;amélioration continue du modèle.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">Personnalisation de l&apos;onboarding</span> : Conception et développement de fonctionnalités permettant d&apos;adapter le parcours d&apos;intégration des nouveaux utilisateurs, pour une prise en main plus fluide et personnalisée de l&apos;application.
+                    </li>
+                </ul>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Projet Pro-Archives — Gestion de copropriété pour syndics
+                </h2>
+                <p className="mb-4 text-justify text-gray-200 leading-relaxed">
+                    <span className="font-semibold text-[#bfae4f]">Pro-Archives</span> est une application dédiée à la gestion de copropriété à destination des syndics. Elle intègre notamment une fonctionnalité d&apos;IA capable de <span className="font-semibold text-yellow-200">trier automatiquement des fichiers</span> en se basant sur leur nom et le contenu des documents, simplifiant ainsi la gestion documentaire au quotidien.
+                </p>
+                <ul className="list-disc list-inside space-y-2 text-gray-300 pl-2">
+                    <li>
+                        <span className="font-semibold text-yellow-300">Développement fullstack</span> : Contribution à plusieurs fonctionnalités de l&apos;application, en intervenant aussi bien sur la partie frontend que backend.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">Ajout du versioning</span> : Mise en place d&apos;un système de gestion de versions au sein de l&apos;application, permettant un meilleur suivi des évolutions et une traçabilité accrue des documents et des modifications.
+                    </li>
+                </ul>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Projet QA-Copilot — POC mené en autonomie
+                </h2>
+                <p className="mb-4 text-justify text-gray-200 leading-relaxed">
+                    En parallèle de mes contributions aux projets existants, j&apos;ai pris en charge de manière <span className="font-semibold text-yellow-200">totalement autonome</span> le développement d&apos;un POC pour le projet <span className="font-semibold text-[#bfae4f]">QA-Copilot</span>. Ce projet vise à automatiser les tests de qualité du frontend d&apos;applications web grâce à une intelligence artificielle, réduisant ainsi le temps et les efforts liés aux campagnes de tests manuels.
+                </p>
+                <ul className="list-disc list-inside space-y-2 text-gray-300 pl-2">
+                    <li>
+                        <span className="font-semibold text-yellow-300">ADRs (Architecture Decision Records)</span> : Rédaction des décisions d&apos;architecture prises tout au long du projet, permettant de documenter et justifier les choix techniques effectués.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">PRD (Product Requirements Document)</span> : Formalisation des exigences produit, définissant les objectifs, les fonctionnalités attendues et les critères de succès du projet.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">Diagramme d&apos;architecture</span> : Conception d&apos;un schéma d&apos;architecture illustrant les composants du système, leurs interactions et les flux de données.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">MVP en cours</span> : Développement d&apos;un premier produit minimum viable prévu pour la fin du mois de mai, constituant une première version fonctionnelle du copilote de QA.
+                    </li>
+                </ul>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Compétences développées
+                </h2>
+                <ul className="list-disc list-inside space-y-2 text-gray-300 pl-2">
+                    <li>
+                        <span className="font-semibold text-yellow-300">Techniques</span> : Développement fullstack sur des applications en production, intégration de fonctionnalités IA, gestion de versions, conception d&apos;architectures logicielles.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">Documentation & cadrage</span> : Rédaction d&apos;ADRs, de PRD et de diagrammes d&apos;architecture, approche structurée de la conception produit.
+                    </li>
+                    <li>
+                        <span className="font-semibold text-yellow-300">Autonomie & initiative</span> : Pilotage en solo d&apos;un projet de R&D de bout en bout, de la conception à la livraison du MVP.
+                    </li>
+                </ul>
+
+                <h2 className="text-xl font-bold text-[#bfae4f] mb-3 mt-8 tracking-wide border-l-4 border-[#bfae4f] pl-3">
+                    Bilan
+                </h2>
+                <p className="text-justify text-gray-200 leading-relaxed">
+                    Cette alternance chez Nudibranches Technologies m&apos;a permis de m&apos;immerger dans un environnement professionnel dynamique et innovant, au cœur de problématiques liées à l&apos;IA et au cloud souverain. En contribuant à des projets variés et en prenant en charge un POC de manière autonome, j&apos;ai développé aussi bien mes compétences techniques que ma capacité à structurer une réflexion produit et à m&apos;adapter aux exigences du monde professionnel.
+                </p>
+            </div>
+        ),
+        skills_overview: [1, 5, 6],
+            skills: [
+                {
+                    idSkill: "1",
+                    idSubSkill: "1",
+                    lvl: 3,
+                    justification: "Sur le projet QA-Copilot, j'ai conçu l'architecture technique du POC en choisissant les technologies " +
+                        "et les patterns adaptés au contexte d'un outil de QA automatisé par IA. Ces choix ont été formalisés dans des ADRs " +
+                        "et un diagramme d'architecture, garantissant une base solide et cohérente pour le développement du MVP."
+                },
+                {
+                    idSkill: "1",
+                    idSubSkill: "2",
+                    lvl: 3,
+                    justification: "J'ai contribué à faire évoluer les applications Abyssens et Pro-Archives en y intégrant de nouvelles " +
+                        "fonctionnalités : formulaire d'avis sur les réponses IA, personnalisation de l'onboarding et ajout d'un système " +
+                        "de versioning. Ces développements fullstack ont nécessité de comprendre le fonctionnement existant de chaque " +
+                        "application pour s'y intégrer de manière cohérente et non régressive."
+                },
+                {
+                    idSkill: "1",
+                    idSubSkill: "3",
+                    lvl: 3,
+                    justification: "Les fonctionnalités développées sur Abyssens et Pro-Archives ont été intégrées directement dans des " +
+                        "environnements de production actifs, utilisés par de vrais clients. Cela m'a confrontée aux exigences d'un " +
+                        "déploiement en conditions réelles : stabilité, compatibilité et rigueur dans les livraisons."
+                },
+                {
+                    idSkill: "5",
+                    idSubSkill: "1",
+                    lvl: 3,
+                    justification: "Les projets Abyssens et Pro-Archives répondent à des enjeux concrets : gain de temps dans l'accès " +
+                        "à l'information pour Abyssens, et optimisation de la gestion de copropriété pour Pro-Archives. J'ai pu mesurer " +
+                        "l'impact technologique et organisationnel de ces outils sur leurs utilisateurs, notamment les syndics, et " +
+                        "comprendre en quoi l'IA représente une valeur ajoutée réelle dans ces contextes métiers."
+                },
+                {
+                    idSkill: "5",
+                    idSubSkill: "2",
+                    lvl: 3,
+                    justification: "Pro-Archives s'intègre directement dans le système d'information de syndics de copropriété, en " +
+                        "prenant en charge la gestion documentaire et le tri automatisé par IA. J'ai veillé à ce que les fonctionnalités " +
+                        "développées s'inscrivent dans ce contexte organisationnel, en respectant les contraintes et les flux de données " +
+                        "existants."
+                },
+                {
+                    idSkill: "5",
+                    idSubSkill: "3",
+                    lvl: 3,
+                    justification: "Le développement du versioning sur Pro-Archives et la personnalisation de l'onboarding sur Abyssens " +
+                        "illustrent ma capacité à adapter un système d'information à l'évolution des besoins utilisateurs. Ces ajustements " +
+                        "ont été réalisés en tenant compte des contraintes techniques et fonctionnelles de chaque application."
+                },
+                {
+                    idSkill: "6",
+                    idSubSkill: "1",
+                    lvl: 3,
+                    justification: "Évoluant dans un environnement centré sur l'IA et le cloud souverain, j'ai développé une veille " +
+                        "technologique active sur des sujets tels que les LLMs, les architectures cloud-native et les outils de QA " +
+                        "automatisés. Cette veille a directement nourri la conception du POC QA-Copilot et mes choix techniques " +
+                        "sur les autres projets."
+                },
+                {
+                    idSkill: "6",
+                    idSubSkill: "4",
+                    lvl: 3,
+                    justification: "En pilotant seule le projet QA-Copilot de bout en bout — de la rédaction du PRD et des ADRs à la " +
+                        "conception de l'architecture et au développement du MVP — j'ai assumé un rôle de gestion de projet à part " +
+                        "entière. Cette autonomie m'a permis de structurer les étapes du projet, d'anticiper les risques et de livrer " +
+                        "des livrables clairs et exploitables."
+                }
+            ]
+
+    },
+    {
         id : "gopetsit",
         title: "GoPetSit",
         date: "2025-01",
@@ -958,5 +1133,4 @@ export const projects = [
             }
         ]
     },
-
 ]
