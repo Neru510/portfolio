@@ -9,6 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr" className={albertSans.className}>
+      <head>
+        <link rel="preload" as="image" href="/portfolio/img/background.jpg" />
+      </head>
       <body className="antialiased">
         <a
           href="#main-content"

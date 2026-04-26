@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useCallback } from "react";
 
 const scrollToSection = (id) => (e) => {
@@ -19,19 +20,24 @@ export default function Navbar() {
                     </a>
                 </li>
                 <li>
-                    <a href="#about" onClick={scrollToSection("about")} className={linkStyle}>
+                    <a href="/portfolio#about" className={linkStyle}>
                         À propos
                     </a>
                 </li>
                 <li>
-                    <a href="#projets" onClick={scrollToSection("projets")} className={linkStyle}>
+                    <a href="/portfolio#projets" className={linkStyle}>
                         Projets
                     </a>
                 </li>
                 <li>
-                    <a href="#contact" onClick={scrollToSection("contact")} className={linkStyle}>
+                    <a href="/portfolio#contact" className={linkStyle}>
                         Me contacter
                     </a>
+                </li>
+                <li>
+                    <Link href="/apprentissage" className={linkStyle}>
+                        Portfolio d'apprentissage
+                    </Link>
                 </li>
             </ul>
         </nav>
